@@ -7,7 +7,7 @@ new Vue({
         resultado(){
             return this.valor == 37 ? "valor igual" : "Valor diferente";
         }
-    },
+    }, 
     watch: {
         resultado(){
             setTimeout( ()=>{
